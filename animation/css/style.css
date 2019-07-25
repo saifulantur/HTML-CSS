@@ -1,0 +1,74 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    -webkit-animation-name: box-animation;
+    -o-animation-name: box-animation;
+    animation-name: box-animation;
+    animation-duration: 2s;
+}
+
+@keyframes box-animation {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: box2-animation;
+    -o-animation-name: box2-animation;
+    animation-name: box2-animation;
+    animation-duration: 4s;
+    animation-delay: 2s;  /* after reload animation will start after 2second*/
+    animation-iteration-count: 3; /*how many times you want to animate - loop*/
+ /* animation-iteration-count: infinite;*/
+    animation-direction: alternate;
+ /* animation-direction: reverse;  *//*reverse animation effect */
+
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
+
+/*  animation: box2-animation 4s ease-in-out 1s 3 alternate backwards;*/
+}
+
+@keyframes box2-animation {
+    0% {
+        background-color: yellow;
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        background-color: black;
+
+        left: 100;
+        top: 0;
+    }
+
+    50% {
+        background-color: blue;
+        /*            left: 200px;*/
+        top: 200px;
+        left: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0;
+        top: 200px;
+    }
+
+    100% {
+        background-color: gray;
+        left: 0;
+        top: 0;
+    }
+}
