@@ -1,0 +1,29 @@
+.webpage{
+    display: grid;
+    background-color: skyblue;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    text-align: center;
+    grid-gap: 20px;
+}
+
+.grid-item{
+    padding: 30px;
+    background-color: beige;
+    font-size: 30px;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.menu{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 4
+}
