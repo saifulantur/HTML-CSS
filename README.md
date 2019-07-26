@@ -11,5 +11,7 @@
 ![Screenshot (55)](https://user-images.githubusercontent.com/40080527/61896251-5f17c980-af36-11e9-82c1-53fb1c94faab.png)
 
 <h2>Facebook Login Page Design. </h2>
-![image](https://user-images.githubusercontent.com/40080527/61948694-61c3fe80-afca-11e9-88f7-992adbb40ec7.png)
+
+![Screenshot_2019-07-26 Facebook-Log in or sign up](https://user-images.githubusercontent.com/40080527/61948871-d5fea200-afca-11e9-9197-c038ce6ca4d4.png)
+
 
