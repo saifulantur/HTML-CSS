@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-Log in or sign up</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo-area">
+                <img src="img/fb-logo.png" alt="Facebook">
+            </div>
+            <div class="login-area">
+                <div class="email">
+                    <label for="email">Email or Phone</label>
+                    <input type="text" id="email">
+                </div>
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                    <a href="#">Forgotten account?</a>
+                </div>
+                <div class="login">
+                    <input type="submit" value="Log in">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--    End Header Section-->
+<!--    Start SignUp area-->
+    <div class="sign-up-area">
+        <div class="row">
+            <div class="col-left">
+                <h4 class="left-text">Facebook helps you connect and share with the people in your life.</h4>
+                <img src="img/fb-content-image.png" alt="Sign Up Image">
+            </div>
+            
+                <div class="col-right">
+                   <form action="#" method="POST">
+                    <h1 class="col-right-h1">Create an account</h1>
+                    <h2 class="col-right-h2">It's free and always will be.</h2>
+                    <div class="align">
+                        <div class="full-name">
+                            <div class="first-name">
+                                <input type="text" placeholder="First name" autofocus>
+                            </div>
+                            <div class="last-name">
+                                <input type="text" placeholder="Surname">
+                            </div>
+
+
+                        </div>
+
+                        <div class="mobile-pass">
+                            <div class="mobile">
+                                <input type="text" placeholder="Mobile number or email address">
+                            </div>
+                            <div class="pass">
+                                <input type="password" placeholder="New password" required>
+                            </div>
+                        </div>
+                        <div class="birthday-section">
+                            <h2 class="birthday-h2">Birthday</h2>
+                            <div class="birthday-combobox">
+                                <div class="birthday-day">
+                                    <select>
+                                        <option value="date">Day</option>
+                                        <option value="date" selected>1</option>
+                                        <option value="date">2</option>
+                                        <option value="date">3</option>
+                                        <option value="date">4</option>
+                                        <option value="date">5</option>
+                                        <option value="date">6</option>
+                                        <option value="date">7</option>
+                                        <option value="date">8</option>
+                                        <option value="date">9</option>
+                                        <option value="date">10</option>
+                                    </select>
+                                </div>
+                                <div class="birthday-month">
+                                    <select name="month" id="month" class="combobox-birthday-month">
+                                        <option value="Month">Month</option>
+                                        <option value="Jan" selected>Jan</option>
+                                        <option value="Feb">Feb</option>
+                                        <option value="Mar">Mar</option>
+                                        <option value="Apr">Apr</option>
+                                        <option value="May">May</option>
+                                        <option value="Jun">Jun</option>
+                                        <option value="Jul">Jul</option>
+                                        <option value="Aug">Aug</option>
+                                        <option value="Sep">Sep</option>
+                                        <option value="Oct">Oct</option>
+                                    </select>
+                                </div>
+                                <div class="birthday-year">
+                                    <select name="year" id="year" class="combobox-birthday-year">
+                                        <option value="Year">Year</option>
+                                        <option value="2001">2001</option>
+                                        <option value="2004">2002</option>
+                                        <option value="2003">2003</option>
+                                        <option value="2004">2004</option>
+                                        <option value="2005">2005</option>
+                                        <option value="2006">2006</option>
+                                        <option value="2007" selected>2007</option>
+                                        <option value="2008">2008</option>
+                                        <option value="2009">2009</option>
+                                        <option value="2010">2010</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gender-section">
+                            <h2 class="gender-h2">Gender</h2>
+                            <div class="gender-selection">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Female</label>
+                                <input type="radio" id="custom" name="gender">
+                                <label for="female">Custom</label>
+                                
+                            </div>
+                        </div>
+                        <div class="terms">
+                            <p class="terms-p">By clicking Sign Up, you agree to our <a href="#">Terms, </a><a href="#">Data Policy </a> and <a href="#">Cookie Policy.</a> You may receive SMS notifications from us and can opt out at any time.</p>
+                        </div>
+                        <div class="btn">
+                            <input type="submit" value="Sign Up">
+                        </div>
+                        <div class="create-page-section">
+                            <p><a href="#">Create a Page </a>for a celebrity, band or business.</p>
+                        </div>
+                        
+                    </div>
+                    </form>
+                </div>
+            
+        </div>
+    </div>
+<!--    End SignUp area-->
+
+    <script src=""></script>
+</body>
+
+</html>

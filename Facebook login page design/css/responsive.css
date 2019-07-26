@@ -1,0 +1,44 @@
+
+@media screen and (max-width:980px) {
+    .logo-area{
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .login-area{
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:480px){
+    
+    .login-area{
+    
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .email,
+    .password,
+    .login{
+        width: 100%;
+        float: none;
+        margin-left: 100px;
+    }
+.login input[type="submit"]{
+    margin-top: 3px;
+    margin-left: 50px;
+    }
+    
+    .container{
+        padding: 0;
+    }
+
+};
